@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://bnsok42f08d8i"]
+
+[node name="ButtonLine" type="HBoxContainer"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 31.0
+grow_horizontal = 2
+alignment = 1
+
+[node name="ButtonLabel" type="Label" parent="."]
+layout_mode = 2
+text = "Lorem Ipsum"
+
+[node name="_" type="VSeparator" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="OptionButton" type="OptionButton" parent="."]
+layout_mode = 2
+item_count = 1
+selected = 0
+popup/item_0/text = "Dolor Sit Amet"
+popup/item_0/id = 0
